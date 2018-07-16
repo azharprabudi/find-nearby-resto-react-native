@@ -1,0 +1,26 @@
+===================== Read Me Before You Start This Code =====================
+
+Created By Azhar Prabudi (https://github.com/azharprabudi)
+
+Before run this project you have to install some tools, there are :
+
+1. Android studio, with sdk from 19 untill 25
+2. Node js (version 8 recommended)
+3. Jdk 1.8 & Registry your java to your enviroment variable in your OS
+4. After you do three step before, open terminal and run this "npm install -g react-native-cli"
+5. Then run "npm install" in your terminal (dont forget, this command just run in this directory project)
+6. Change this code in ./node_modules/react-native-maps/lib/android/build.gradle
+
+compileOnly "com.facebook.react:react-native:+"
+implementation "com.google.android.gms:play-services-base:$googlePlayServicesVersion"
+implementation "com.google.android.gms:play-services-maps:$googlePlayServicesVersion"
+implementation "com.google.maps.android:android-maps-utils:$androidMapsUtilsVersion"
+
+To be
+
+provided "com.facebook.react:react-native:+"
+compile "com.google.android.gms:play-services-base:$googlePlayServicesVersion"
+compile "com.google.android.gms:play-services-maps:$googlePlayServicesVersion"
+compile "com.google.maps.android:android-maps-utils:$androidMapsUtilsVersion"
+
+Thanks to zomato to provide list restaurant and details
