@@ -9,7 +9,7 @@ In this app you also need some enviroment like :
 6. Emulator android (You can used the real device just enabled your android debugging in development mode)
 7. Some coffee to make your eye on and keep spirit for that
 
-But in this application i made, i am using api from Google maps and Zomato, so thank you so much for zomato and google map to give me free API. But so sorry for the API KEY, i cant share with u but you can request the api key from their official website :
+But in this application i made, i am using api from Google maps and Zomato, so thank you so much for zomato and google map to give me free API.  But so sorry for the API KEY, i cant share with u because there a limitation with that, but you can request the api key from their official website :
 
 1. Google maps (https://developers.google.com/maps/documentation/javascript/get-api-key)
 2. Zomato (https://developers.zomato.com/api?lang=id)
